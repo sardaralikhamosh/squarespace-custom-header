@@ -15,7 +15,7 @@
 .book-custom-button{
 /*    header button */
     color: darkblue !important;
-    padding-right: 40px;
+    padding-right: 35px;
 
 }
     /* General header styling */
@@ -131,7 +131,7 @@
           <p>Newport Beach, CA</p>
           <p>949.673.5966</p>
           <div style="width: 100%;">
-            <P class="book-custom-button">Book<br>Now</P>
+            <P class="book-custom-button sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element">Book Now</P>
               <div class="blue-line"></div>
           </div>
         </div>
