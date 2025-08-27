@@ -17,11 +17,19 @@
     color: darkblue !important;
     padding: 10px;
     margin-right: 30px;
-    border-bottom: 3px solis linear-gradient(to right, green, blue) !important;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, green, blue) 1;
     width: 140px;
     text-align: center;
+    float: right;
+    text-transform: uppercase;
 
 }
+.book-custom-button:hover {
+      background: hsla(201.29,100%,36.47%,1);
+      color: white;
+    }
+
     /* General header styling */
     section.custom-header {
       padding: 15px 30px;
@@ -57,21 +65,7 @@
       margin: 0;
       color: black;
       font-size: 20px;
-    }
-
-
-    .book-custom-button:hover {
-      background: hsla(201.29,100%,36.47%,1);
-      color: white;
-    }
-
-    .blue-line {
-      width: 40%;
-      height: 3px;
-      background: linear-gradient(to right, green, blue);
-      margin-top: 8px;
-      float: right;
-    }
+    }blue-line
 
     /* Responsive adjustments */
     @media(max-width: 991px) {
@@ -126,7 +120,6 @@
           <p>949.673.5966</p>
           <div style="width: 100%;">
             <P class="book-custom-button">Book Now</P>
-              <div class="blue-line"></div>
           </div>
         </div>
       </div>
