@@ -59,7 +59,7 @@
     }
 
     section.custom-header .logo img {
-      max-height: 50px;
+      max-height: 70px;
     }
 
     /* Right column styling */
