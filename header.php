@@ -15,7 +15,11 @@
 .book-custom-button{
 /*    header button */
     color: darkblue !important;
-    padding-right: 35px;
+    padding: 10px;
+    margin-right: 30px;
+    border-bottom: 3px solis linear-gradient(to right, green, blue) !important;
+    width: 140px;
+    text-align: center;
 
 }
     /* General header styling */
@@ -55,19 +59,9 @@
       font-size: 20px;
     }
 
-    .book-btn {
-      margin-top: 5px;
-      padding: 8px 20px;
-      font-size: 20px;
-      background: transparent;
-      border: 2px solid black;
-      color: black;
-      cursor: pointer;
-      font-weight: 600;
-    }
 
-    .book-btn:hover {
-      background: black;
+    .book-custom-button:hover {
+      background: hsla(201.29,100%,36.47%,1);
       color: white;
     }
 
@@ -131,7 +125,7 @@
           <p>Newport Beach, CA</p>
           <p>949.673.5966</p>
           <div style="width: 100%;">
-            <P class="book-custom-button sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element">Book Now</P>
+            <P class="book-custom-button">Book Now</P>
               <div class="blue-line"></div>
           </div>
         </div>
