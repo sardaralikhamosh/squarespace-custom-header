@@ -3,6 +3,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
+  
 /*    custom code by sardaralikhamosh@gmail.com*/
 .col-md-6.nested-header1{
     display: flex;
@@ -12,7 +13,11 @@
     border: 1px solid black;
     padding: 20px;
 }
+.custom-address-font{
+    font-family: 'Paragraph' !important;
+}
 .book-custom-button{
+  font-family: 'Paragraph' !important;
 /*    header button */
     color: darkblue !important;
     padding: 10px;
@@ -46,10 +51,11 @@
     }
 
     section.custom-header .nav ul li a {
+      font-family: 'Paragraph' !important;
       text-decoration: none;
       color: black;
-      font-size: 20px;
-      font-weight: 500;
+      font-size: 18px;
+      font-weight: 300;
     }
 
     section.custom-header .logo img {
@@ -115,9 +121,9 @@
 
         <!-- Address + Book Now -->
         <div class="col-md-6 address-block nested-header-2">
-          <p>3363 VIA LIDO</p>
-          <p>Newport Beach, CA</p>
-          <p>949.673.5966</p>
+          <p class="custom-address-font">3363 VIA LIDO</p>
+          <p class="custom-address-font">Newport Beach, CA</p>
+          <p class="custom-address-font">949.673.5966</p>
           <div style="width: 100%;">
             <P class="book-custom-button">Book Now</P>
           </div>
