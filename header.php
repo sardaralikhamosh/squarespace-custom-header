@@ -15,10 +15,18 @@
 }
 .custom-address-font{
     font-family: 'Paragraph' !important;
+    font-family: 'Paragraph' !important;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
 }
 .book-custom-button{
-  font-family: 'Paragraph' !important;
 /*    header button */
+    font-family: 'Paragraph' !important;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
     color: darkblue !important;
     padding: 10px;
     margin-right: 30px;
@@ -92,9 +100,9 @@
     <div class="col-sm-4 col-md-5 sardar-custom-header-c1">
       <div class="nav">
         <ul>
-          <li class="custom-menu-item-1"><a href="#">Our<br>Services</a></li>
-          <li class="custom-menu-item-1"><a href="#">The<br>Team</a></li>
-          <li class="custom-menu-item-1"><a href="#">The<br>Spa</a></li>
+          <li class="custom-menu-item-1"><a href="#services">Our<br>Services</a></li>
+          <li class="custom-menu-item-1"><a href="#team">The<br>Team</a></li>
+          <li class="custom-menu-item-1"><a href="#spa">The<br>Spa</a></li>
         </ul>
       </div>
     </div>
@@ -113,8 +121,8 @@
         <div class="col-md-6 nested-header1">
           <div class="nav">
             <ul>
-              <li class="custom-menu-item-2"><a href="#">Virtual Support</a></li>
-              <li class="custom-menu-item-2"><a href="#">Shop Products</a></li>
+              <li class="custom-menu-item-2"><a href="/contact">Virtual Support</a></li>
+              <li class="custom-menu-item-2"><a href="/shop">Shop Products</a></li>
             </ul>
           </div>
         </div>
@@ -125,7 +133,7 @@
           <p class="custom-address-font">Newport Beach, CA</p>
           <p class="custom-address-font">949.673.5966</p>
           <div style="width: 100%;">
-            <P class="book-custom-button">Book Now</P>
+            <a href="/contact"><P class="book-custom-button">Book Now</P></a>
           </div>
         </div>
       </div>
