@@ -41,11 +41,11 @@
     gap: 100px;
     text-align: center;
     justify-content: space-evenly;
+    text-transform: uppercase;
   }
   
   .sardar-nav ul li a,
   .sardar-dropdown-toggle {
-    font-family: inherit !important;
     text-decoration: none;
     color: black;
     font-family: 'Paragraph' !important;
@@ -54,6 +54,7 @@
     background: none;
     border: none;
     cursor: pointer;
+    text-transform: uppercase;
   }
   
   .sardar-nav ul li a:hover,
@@ -78,6 +79,7 @@
     font-family: 'Paragraph' !important;
   font-size: 17px;
   font-weight: 100;
+  text-transform: uppercase;
   }
   
   /* Book button */
@@ -131,6 +133,7 @@
   font-size: 17px;
   font-weight: 100;
     border-bottom: 1px solid #f0f0f0;
+    text-transform: uppercase;
   }
   
   .sardar-dropdown-content a:last-child {
@@ -240,7 +243,7 @@
               <a href="/facial">Facials Services</a>
             </div>
           </li>
-          <li><a href="/our-expert-teams">The<br>Team</a></li>
+          <li><a href="/our-expert-teams">Our<br>Experts</a></li>
           <li><a href="/our-spa">The<br>Spa</a></li>
         </ul>
       </div>
