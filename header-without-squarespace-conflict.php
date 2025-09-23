@@ -82,12 +82,11 @@
   
   /* Book button */
   .sardar-book-button {
-    font-family: inherit !important;
     color: darkblue !important;
     padding: 10px;
     margin-right: 30px;
-    border-bottom: 3px solid transparent;
-    border-image: linear-gradient(to right, green, blue) 1;
+    border-bottom: 3px solid transparent !important;
+    border-image: linear-gradient(to right, green, blue) 1 !important;
     width: 140px;
     text-align: center;
     float: right;
