@@ -55,6 +55,7 @@
     border: none;
     cursor: pointer;
     text-transform: uppercase;
+    text-align: center;
   }
   
   .sardar-nav ul li a:hover,
