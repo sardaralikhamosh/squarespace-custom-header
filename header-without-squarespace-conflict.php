@@ -9,7 +9,7 @@
   
   /* Custom header container */
   .sardar-custom-header {
-    font-family: inherit !important; /* Inherit from Squarespace */
+    font-family: 'Paragraph' !important;
     padding: 15px 30px;
     background: #fff;
     border: 1px solid black;
@@ -48,8 +48,9 @@
     font-family: inherit !important;
     text-decoration: none;
     color: black;
-    font-size: 18px;
-    font-weight: 300;
+    font-family: 'Paragraph' !important;
+  font-size: 17px;
+  font-weight: 100;
     background: none;
     border: none;
     cursor: pointer;
@@ -74,8 +75,9 @@
   .sardar-address-block p {
     margin: 0;
     color: black;
-    font-size: 20px;
-    font-family: inherit !important;
+    font-family: 'Paragraph' !important;
+  font-size: 17px;
+  font-weight: 100;
   }
   
   /* Book button */
@@ -126,9 +128,10 @@
     text-decoration: none;
     display: block;
     text-align: left;
-    font-size: 16px;
+    font-family: 'Paragraph' !important;
+  font-size: 17px;
+  font-weight: 100;
     border-bottom: 1px solid #f0f0f0;
-    font-family: inherit !important;
   }
   
   .sardar-dropdown-content a:last-child {
@@ -258,14 +261,16 @@
         <div class="sardar-right-menu">
           <div class="sardar-nav">
             <ul>
-              <li><a href="#">Virtual<br>Support</a></li>
+              <a href="#">Shop<br>Products</a>
             </ul>
           </div>
         </div>
         <div class="sardar-right-menu">
           <div class="sardar-nav">
             <ul>
-              <li><a href="#">Shop<br>Products</a></li>
+              <li>
+              <a href="#" class="sardar-book-button">Book<br>Now</a>
+            </li>
             </ul>
           </div>
         </div>
@@ -275,7 +280,6 @@
           <p>3363 VIA LIDO</p>
           <p>Newport Beach, CA</p>
           <p>949.673.5966</p>
-          <a href="#" class="sardar-book-button">Book Now</a>
         </div>
       </div>
     </div>
