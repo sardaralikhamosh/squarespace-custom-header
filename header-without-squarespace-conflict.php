@@ -9,10 +9,10 @@
   
   /* Custom header container */
   .sardar-custom-header {
-    font-family: 'Paragraph' !important;
+    font-family: 'Archivo' !important;
     padding: 15px 30px;
     background: #fff;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
   }
   
   /* Header row and columns */
@@ -48,9 +48,9 @@
   .sardar-dropdown-toggle {
     text-decoration: none;
     color: black;
-    font-family: 'Paragraph' !important;
-  font-size: 17px;
-  font-weight: 100;
+    font-family: 'Archivo' !important;
+  font-size: 13px;
+  font-weight: 400;
     background: none;
     border: none;
     cursor: pointer;
@@ -76,13 +76,16 @@
   .sardar-address-block p {
     margin: 0;
     color: black;
-    font-family: 'Paragraph' !important;
-  font-size: 17px;
-  font-weight: 100;
+    font-family: 'Archivo' !important;
+  font-size: 13px;
+  font-weight: 400;
   text-transform: uppercase;
   }
   
   /* Book button */
+  .button-bottom-border{
+
+  }
   .sardar-book-button {
     color: darkblue !important;
     padding: 10px;
@@ -129,9 +132,9 @@
     text-decoration: none;
     display: block;
     text-align: left;
-    font-family: 'Paragraph' !important;
-  font-size: 17px;
-  font-weight: 100;
+    font-family: 'Archivo' !important;
+  font-size: 13px;
+  font-weight: 400;
     border-bottom: 1px solid #f0f0f0;
     text-transform: uppercase;
   }
@@ -150,7 +153,7 @@
   
   /* Dropdown indicator */
   .sardar-dropdown > .sardar-dropdown-toggle::after {
-    content: " ▼";
+    content: "";
     font-size: 12px;
     margin-left: 5px;
   }
@@ -237,10 +240,11 @@
           <li class="sardar-dropdown">
             <button class="sardar-dropdown-toggle">Our<br>Services</button>
             <div class="sardar-dropdown-content">
-              <a href="/services">Massage Therapy</a>
-              <a href="/skin-treatment">Skin Treatments</a>
-              <a href="/wellness-shots">Wellness Programs</a>
-              <a href="/facial">Facials Services</a>
+              <a href="/services">INJECTABLES<br>+ FILLERS</a>
+              <a href="/skin-treatment">FACIALS<br>MICRONEEDLING</a>
+              <a href="/wellness-shots">LASER<br>TREATMENTS</a>
+              <a href="/facial">WELLNESS SHOTS<br>+ BOOSTERS</a>
+              <a href="/facial">MASSAGE</a>
             </div>
           </li>
           <li><a href="/our-expert-teams">Our<br>Experts</a></li>
@@ -252,7 +256,8 @@
     <!-- Logo Center -->
     <div class="sardar-header-col sardar-header-center">
       <div class="sardar-logo">
-        <img src="https://images.squarespace-cdn.com/content/68a8c4d7532312733c74954f/4b0476ce-4754-4e19-9320-fe15b385d2c9/Logo-12.png" alt="BODY NOW Logo">
+        <a href="/home">
+          <img src="https://images.squarespace-cdn.com/content/68a8c4d7532312733c74954f/2489403c-7865-4969-b4e7-f17fa800f7ec/Logo+ALTH.png" alt="BODY NOW Logo"></a>
       </div>
     </div>
 
@@ -271,7 +276,7 @@
           <div class="sardar-nav">
             <ul>
               <li>
-              <a href="/shop" class="sardar-book-button">Book<br>Now</a>
+              <a href="/virtual-support">VIRTUAL<br>SUPPORT</a>
             </li>
             </ul>
           </div>
@@ -282,6 +287,7 @@
           <p>3363 VIA LIDO</p>
           <p>Newport Beach, CA</p>
           <p>949.673.5966</p>
+          <a href="/shop" class="sardar-book-button">Book Now</a>
         </div>
       </div>
     </div>
