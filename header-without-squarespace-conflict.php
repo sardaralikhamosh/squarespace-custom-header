@@ -234,14 +234,14 @@
           <li class="sardar-dropdown">
             <button class="sardar-dropdown-toggle">Our<br>Services</button>
             <div class="sardar-dropdown-content">
-              <a href="#">Massage Therapy</a>
-              <a href="#">Skin Treatments</a>
-              <a href="#">Wellness Programs</a>
-              <a href="#">Specialty Services</a>
+              <a href="/services">Massage Therapy</a>
+              <a href="/skin-treatment">Skin Treatments</a>
+              <a href="/wellness-shots">Wellness Programs</a>
+              <a href="/facial">Facials Services</a>
             </div>
           </li>
-          <li><a href="#">The<br>Team</a></li>
-          <li><a href="#">The<br>Spa</a></li>
+          <li><a href="/our-expert-teams">The<br>Team</a></li>
+          <li><a href="/our-spa">The<br>Spa</a></li>
         </ul>
       </div>
     </div>
@@ -260,7 +260,7 @@
         <div class="sardar-right-menu">
           <div class="sardar-nav">
             <ul>
-              <a href="#">Shop<br>Products</a>
+              <a href="/shop">Shop<br>Products</a>
             </ul>
           </div>
         </div>
@@ -268,7 +268,7 @@
           <div class="sardar-nav">
             <ul>
               <li>
-              <a href="#" class="sardar-book-button">Book<br>Now</a>
+              <a href="/shop" class="sardar-book-button">Book<br>Now</a>
             </li>
             </ul>
           </div>
