@@ -89,12 +89,11 @@
   }
   .sardar-book-button {
     color: darkblue !important;
-    padding: 10px;
-    margin-right: 30px;
+    padding: 10px 0 10px 10px;
     border-bottom: 3px solid transparent !important;
     border-image: linear-gradient(to right, green, blue) 1 !important;
     width: 140px;
-    text-align: center;
+    text-align: right;
     float: right;
     text-transform: uppercase;
     display: inline-block;
@@ -243,9 +242,9 @@
             <div class="sardar-dropdown-content">
               <a href="/services">INJECTABLES<br>+ FILLERS</a>
               <a href="/skin-treatment">FACIALS<br>MICRONEEDLING</a>
-              <a href="/wellness-shots">LASER<br>TREATMENTS</a>
-              <a href="/facial">WELLNESS SHOTS<br>+ BOOSTERS</a>
-              <a href="/facial">MASSAGE</a>
+              <a href="/laser-treatment">LASER<br>TREATMENTS</a>
+              <a href="/wellness-shots">WELLNESS SHOTS<br>+ BOOSTERS</a>
+              <a href="/massages">MASSAGE</a>
             </div>
           </li>
           <li><a href="/our-expert-teams">Our<br>Experts</a></li>
@@ -269,7 +268,7 @@
         <div class="sardar-right-menu">
           <div class="sardar-nav">
             <ul>
-              <a href="/shop">Shop<br>Products</a>
+              <a href="/shop-1">Shop<br>Products</a>
             </ul>
           </div>
         </div>
