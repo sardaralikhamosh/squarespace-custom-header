@@ -241,7 +241,8 @@
             <button class="sardar-dropdown-toggle">Our<br>Services</button>
             <div class="sardar-dropdown-content">
               <a href="/services">INJECTABLES<br>+ FILLERS</a>
-              <a href="/skin-treatment">FACIALS<br>MICRONEEDLING</a>
+              <a href="/microneedling">MICRONEEDLING</a>
+              <a href="/facial">FACIALS</a>
               <a href="/laser-treatment">LASER<br>TREATMENTS</a>
               <a href="/wellness-shots">WELLNESS SHOTS<br>+ BOOSTERS</a>
               <a href="/massages">MASSAGE</a>
