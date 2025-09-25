@@ -50,7 +50,7 @@
     color: black;
     font-family: 'Archivo' !important;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 200;
     background: none;
     border: none;
     cursor: pointer;
@@ -79,7 +79,7 @@
     color: black;
     font-family: 'Archivo' !important;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 200;
   text-transform: uppercase;
   }
   
@@ -88,10 +88,10 @@
 
   }
   .sardar-book-button {
-    color: darkblue !important;
+    color: #003F9F !important;
     padding: 10px 0 10px 10px;
     border-bottom: 3px solid transparent !important;
-    border-image: linear-gradient(to right, green, blue) 1 !important;
+    border-image: linear-gradient(to right, #003f9f, #11babf) 1;
     width: 140px;
     text-align: right;
     float: right;
@@ -134,7 +134,7 @@
     text-align: left;
     font-family: 'Archivo' !important;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 200;
     border-bottom: 1px solid #f0f0f0;
     text-transform: uppercase;
   }
@@ -218,7 +218,11 @@
       width: 100%;
     }
   }
-  
+  .botton-buttom-border{
+  font-family: 'Archivo' !important;
+  font-size: 13px;
+  font-weight: 200;
+}
   @media (max-width: 768px) {
     .sardar-nav ul {
       gap: 30px;
@@ -269,7 +273,9 @@
         <div class="sardar-right-menu">
           <div class="sardar-nav">
             <ul>
-              <a href="/shop-1">Shop<br>Products</a>
+              <li>
+                <a href="/shop">Shop<br>Products</a>
+            </li>
             </ul>
           </div>
         </div>
@@ -288,7 +294,7 @@
           <p>3363 VIA LIDO</p>
           <p>Newport Beach, CA</p>
           <p>949.673.5966</p>
-          <a href="/shop" class="sardar-book-button">Book Now</a>
+          <a href="/shop" class="botton-buttom-border sardar-book-button">Book Now</a>
         </div>
       </div>
     </div>
