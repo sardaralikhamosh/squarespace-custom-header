@@ -13,7 +13,7 @@
     padding: 15px 30px;
     background: #fff;
     border-bottom: 1px solid black;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
   }
   
   /* Header row and columns */
@@ -57,7 +57,7 @@
     cursor: pointer;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
   }
   
   .sardar-nav ul li a:hover,
@@ -83,7 +83,7 @@
   font-size: 13px;
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
   }
   
   /* Book button */
@@ -100,7 +100,7 @@
     text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
   }
   
   .sardar-book-button:hover {
@@ -127,7 +127,7 @@
     margin-top: 10px;
     border-radius: 4px;
     padding: 10px 0;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
   }
   
   .sardar-dropdown-content a {
@@ -141,7 +141,7 @@
   font-weight: 200;
     border-bottom: 1px solid #f0f0f0;
     text-transform: uppercase;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
   }
   
   .sardar-dropdown-content a:last-child {
