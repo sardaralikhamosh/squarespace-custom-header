@@ -50,7 +50,7 @@
     text-decoration: none;
     color: black;
     font-family: 'Archivo' !important;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 200;
     background: none;
     border: none;
@@ -80,7 +80,7 @@
     margin: 0;
     color: black;
     font-family: 'Archivo' !important;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -137,7 +137,7 @@
     display: block;
     text-align: left;
     font-family: 'Archivo' !important;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 200;
     border-bottom: 1px solid #f0f0f0;
     text-transform: uppercase;
@@ -225,7 +225,7 @@
   }
   .botton-buttom-border{
   font-family: 'Archivo' !important;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 200;
 }
   @media (max-width: 768px) {
@@ -249,16 +249,16 @@
           <li class="sardar-dropdown">
             <button class="sardar-dropdown-toggle">Our<br>Services</button>
             <div class="sardar-dropdown-content">
-              <a href="/services">INJECTABLES<br>+ FILLERS</a>
+              <a href="/injections">INJECTABLES<br>+ FILLERS</a>
+              <a href="/facials">FACIALS</a>
               <a href="/microneedling">MICRONEEDLING</a>
-              <a href="/facial">FACIALS</a>
-              <a href="/laser-treatment">LASER<br>TREATMENTS</a>
+              <a href="/laser-treatments">LASER<br>TREATMENTS</a>
               <a href="/wellness-shots">WELLNESS SHOTS<br>+ BOOSTERS</a>
               <a href="/massages">MASSAGE</a>
             </div>
           </li>
-          <li><a href="/our-expert-teams">Our<br>Experts</a></li>
-          <li><a href="/our-spa">Our<br>Spa</a></li>
+          <li><a href="/our-experts">Our<br>Experts</a></li>
+          <li><a href="/details">Our<br>Spa</a></li>
         </ul>
       </div>
     </div>
@@ -298,7 +298,7 @@
         <div class="sardar-address-block">
           <p>3363 VIA LIDO</p>
           <p>Newport Beach, CA</p>
-          <p>949.673.5966</p>
+          <a href="tel:9496735966"><p>949.673.5966</p></a>
           <a href="tel:9496735966" class="botton-buttom-border sardar-book-button">Book Now</a>
         </div>
       </div>
