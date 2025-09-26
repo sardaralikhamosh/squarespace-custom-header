@@ -13,6 +13,7 @@
     padding: 15px 30px;
     background: #fff;
     border-bottom: 1px solid black;
+    letter-spacing: .1rem;
   }
   
   /* Header row and columns */
@@ -56,6 +57,7 @@
     cursor: pointer;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: .1rem;
   }
   
   .sardar-nav ul li a:hover,
@@ -81,6 +83,7 @@
   font-size: 13px;
   font-weight: 200;
   text-transform: uppercase;
+  letter-spacing: .1rem;
   }
   
   /* Book button */
@@ -92,12 +95,12 @@
     padding: 10px 0 10px 10px;
     border-bottom: 3px solid transparent !important;
     border-image: linear-gradient(to right, #003f9f, #11babf) 1;
-    width: 140px;
     text-align: right;
     float: right;
     text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
+    letter-spacing: .1rem;
   }
   
   .sardar-book-button:hover {
@@ -124,6 +127,7 @@
     margin-top: 10px;
     border-radius: 4px;
     padding: 10px 0;
+    letter-spacing: .1rem;
   }
   
   .sardar-dropdown-content a {
@@ -137,6 +141,7 @@
   font-weight: 200;
     border-bottom: 1px solid #f0f0f0;
     text-transform: uppercase;
+    letter-spacing: .1rem;
   }
   
   .sardar-dropdown-content a:last-child {
@@ -253,7 +258,7 @@
             </div>
           </li>
           <li><a href="/our-expert-teams">Our<br>Experts</a></li>
-          <li><a href="/our-spa">The<br>Spa</a></li>
+          <li><a href="/our-spa">Our<br>Spa</a></li>
         </ul>
       </div>
     </div>
