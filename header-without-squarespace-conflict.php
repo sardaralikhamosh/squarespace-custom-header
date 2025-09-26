@@ -92,10 +92,10 @@
   }
   .sardar-book-button {
     color: #003F9F !important;
-    padding: 10px 0 10px 10px;
+    padding: 10px 10px 10px 10px;
     border-bottom: 3px solid transparent !important;
     border-image: linear-gradient(to right, #003f9f, #11babf) 1;
-    text-align: right;
+    text-align: center;
     float: right;
     text-transform: uppercase;
     display: inline-block;
@@ -164,7 +164,7 @@
   }
   
   .sardar-dropdown.active > .sardar-dropdown-toggle::after {
-    content: " ▲";
+    content: "";
   }
   
   /* Right section layout */
@@ -279,7 +279,7 @@
           <div class="sardar-nav">
             <ul>
               <li>
-                <a href="/shop">Shop<br>Products</a>
+                <a href="/shop-1">Shop<br>Products</a>
             </li>
             </ul>
           </div>
