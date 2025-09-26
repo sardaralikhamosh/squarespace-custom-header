@@ -104,7 +104,7 @@
   }
   
   .sardar-book-button:hover {
-    background: hsla(201.29,100%,36.47%,1);
+    background: hsla(216.23,100%,31.18%,1);
     color: white !important;
   }
   
