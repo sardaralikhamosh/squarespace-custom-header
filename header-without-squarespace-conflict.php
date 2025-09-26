@@ -299,7 +299,7 @@
           <p>3363 VIA LIDO</p>
           <p>Newport Beach, CA</p>
           <p>949.673.5966</p>
-          <a href="/shop" class="botton-buttom-border sardar-book-button">Book Now</a>
+          <a href="tel:9496735966" class="botton-buttom-border sardar-book-button">Book Now</a>
         </div>
       </div>
     </div>
