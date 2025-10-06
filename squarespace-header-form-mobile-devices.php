@@ -21,7 +21,7 @@
     width: 100%;
   }
   
-  /* Hamburger menu button */
+  /* Hamburger menu button - positioned on the right */
   .sardar-mobile-menu-toggle {
     background: none;
     border: none;
@@ -32,6 +32,7 @@
     justify-content: space-between;
     width: 30px;
     height: 24px;
+    order: 2; /* Position on the right */
   }
   
   .sardar-mobile-menu-toggle span {
@@ -54,30 +55,34 @@
     transform: rotate(-45deg) translate(7px, -6px);
   }
   
-  /* Mobile logo */
+  /* Mobile logo - positioned on the left */
+  .sardar-mobile-logo {
+    order: 1; /* Position on the left */
+  }
+  
   .sardar-mobile-logo img {
     max-height: 50px;
     width: auto;
   }
   
-  /* Mobile navigation menu */
+  /* Mobile navigation menu - slides from right */
   .sardar-mobile-nav {
     position: fixed;
     top: 0;
-    left: -100%;
+    right: -100%; /* Changed from left to right */
     width: 80%;
     max-width: 300px;
     height: 100vh;
     background: #fff;
     z-index: 1002;
-    transition: left 0.3s ease;
+    transition: right 0.3s ease; /* Changed from left to right */
     overflow-y: auto;
     padding: 80px 20px 20px;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1); /* Shadow on left side */
   }
   
   .sardar-mobile-nav.active {
-    left: 0;
+    right: 0; /* Changed from left to right */
   }
   
   .sardar-mobile-nav ul {
@@ -102,7 +107,7 @@
     letter-spacing: .2rem;
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: right; /* Right aligned text */
     padding: 10px 0;
   }
   
@@ -111,16 +116,18 @@
     opacity: 0.8;
   }
   
-  /* Mobile dropdown styles */
+  /* Mobile dropdown styles - right aligned */
   .sardar-mobile-dropdown {
     position: relative;
   }
   
   .sardar-mobile-dropdown-content {
     display: none;
-    padding-left: 15px;
+    padding-right: 15px; /* Changed from left to right */
     margin-top: 10px;
-    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0; /* Changed from left to right */
+    border-left: none;
+    text-align: right; /* Right aligned dropdown content */
   }
   
   .sardar-mobile-dropdown-content a {
@@ -133,28 +140,31 @@
     font-weight: 200;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    text-align: right; /* Right aligned links */
   }
   
   .sardar-mobile-dropdown.active .sardar-mobile-dropdown-content {
     display: block;
   }
   
-  /* Mobile dropdown indicator */
+  /* Mobile dropdown indicator - positioned on left for right alignment */
   .sardar-mobile-dropdown > .sardar-mobile-dropdown-toggle::after {
     content: "▼";
     font-size: 10px;
-    margin-left: 5px;
+    margin-right: 5px; /* Changed from left to right */
+    float: left; /* Position indicator on the left */
   }
   
   .sardar-mobile-dropdown.active > .sardar-mobile-dropdown-toggle::after {
     content: "▲";
   }
   
-  /* Mobile address and book button */
+  /* Mobile address and book button - right aligned */
   .sardar-mobile-address-block {
     margin-top: 30px;
     padding-top: 20px;
     border-top: 1px solid #f0f0f0;
+    text-align: right; /* Right aligned address */
   }
   
   .sardar-mobile-address-block p {
@@ -225,22 +235,22 @@
 <!-- Mobile Header HTML -->
 <section class="sardar-mobile-header">
   <div class="sardar-mobile-row">
-    <!-- Hamburger Menu Button (Left) -->
-    <button class="sardar-mobile-menu-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    
-    <!-- Logo (Right) -->
+    <!-- Logo (Left) -->
     <div class="sardar-mobile-logo">
       <a href="/home">
         <img src="https://images.squarespace-cdn.com/content/68a8c4d7532312733c74954f/2489403c-7865-4969-b4e7-f17fa800f7ec/Logo+ALTH.png" alt="BODY NOW Logo">
       </a>
     </div>
+    
+    <!-- Hamburger Menu Button (Right) -->
+    <button class="sardar-mobile-menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
   
-  <!-- Mobile Navigation Menu -->
+  <!-- Mobile Navigation Menu - Slides from right -->
   <nav class="sardar-mobile-nav">
     <ul>
       <li class="sardar-mobile-dropdown">
