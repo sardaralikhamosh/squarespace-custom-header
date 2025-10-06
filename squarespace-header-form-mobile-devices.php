@@ -19,6 +19,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    position: relative;
+    z-index: 1003; /* Higher than menu to stay on top */
   }
   
   /* Hamburger menu button - positioned on the right */
@@ -33,6 +35,8 @@
     width: 30px;
     height: 24px;
     order: 2; /* Position on the right */
+    position: relative;
+    z-index: 1004; /* Highest z-index to stay on top */
   }
   
   .sardar-mobile-menu-toggle span {
@@ -41,23 +45,28 @@
     width: 100%;
     background-color: black;
     transition: all 0.3s ease;
+    transform-origin: center;
   }
   
+  /* Transform hamburger to X when active */
   .sardar-mobile-menu-toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(6px, 6px);
   }
   
   .sardar-mobile-menu-toggle.active span:nth-child(2) {
     opacity: 0;
+    transform: scale(0);
   }
   
   .sardar-mobile-menu-toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -6px);
+    transform: rotate(-45deg) translate(6px, -6px);
   }
   
   /* Mobile logo - positioned on the left */
   .sardar-mobile-logo {
     order: 1; /* Position on the left */
+    position: relative;
+    z-index: 1003;
   }
   
   .sardar-mobile-logo img {
@@ -242,8 +251,8 @@
       </a>
     </div>
     
-    <!-- Hamburger Menu Button (Right) -->
-    <button class="sardar-mobile-menu-toggle">
+    <!-- Hamburger Menu Button (Right) - Will transform to X when menu is open -->
+    <button class="sardar-mobile-menu-toggle" aria-label="Toggle mobile menu">
       <span></span>
       <span></span>
       <span></span>
@@ -296,6 +305,13 @@ document.addEventListener('DOMContentLoaded', function() {
       mobileNav.classList.toggle('active');
       mobileOverlay.classList.toggle('active');
       document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+      
+      // Update aria-label for accessibility
+      if (this.classList.contains('active')) {
+        this.setAttribute('aria-label', 'Close mobile menu');
+      } else {
+        this.setAttribute('aria-label', 'Open mobile menu');
+      }
     });
   }
   
@@ -306,6 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
       mobileNav.classList.remove('active');
       this.classList.remove('active');
       document.body.style.overflow = '';
+      mobileMenuToggle.setAttribute('aria-label', 'Open mobile menu');
     });
   }
   
@@ -328,6 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
       mobileNav.classList.remove('active');
       mobileOverlay.classList.remove('active');
       document.body.style.overflow = '';
+      mobileMenuToggle.setAttribute('aria-label', 'Open mobile menu');
     });
   });
 });
