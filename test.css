@@ -8,11 +8,12 @@ P1 {
 
 /*below code is added by sardaralikhamosh@gmail.com for hiding the default header of squarespace*/
 /* Hide default Squarespace header */
-@media screen and (min-width:1000px)
+@media screen and (min-width:991px)
 {
   .header, 
 .Header, 
-.site-header {
+.site-header,
+  .sardar-mobile-header{
   display: none !important;
 }
   //added by sardar ali to remove conflict on mobile devices
@@ -74,10 +75,17 @@ div#block-3acb0944c249f3129d0b {
 }
 }
 //below code will apply on only mobile devices
-@media screen and (max-width:1000px)
+@media screen and (max-width:991px)
 {
+  .header, 
+.Header, 
+.site-header,
   .sardar-custom-header{
   display: none !important;
+}
+body.primary-button-shape-underline #siteWrapper .sqs-button-element--primary:not(.ma-pricing-option-button){
+  border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #003F9F, #11BABF) 1;
 }
   div#yui_3_17_2_1_1759504379661_111 {
     display: none;
@@ -106,6 +114,9 @@ div#block-3acb0944c249f3129d0b {
 }
   #header .header-menu-cta {
     padding-bottom: 100px;
+}
+  h1.product-title.preFade.fadeIn {
+    line-height: 60px !important;
 }
 }
 //mobile ends here
@@ -137,6 +148,8 @@ main#page {
 body{
   background-color: #fff !important;
 }
+
+
 
 
 
