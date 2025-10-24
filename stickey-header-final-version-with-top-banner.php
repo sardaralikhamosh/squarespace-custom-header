@@ -7,13 +7,15 @@
     padding: 0;
   }
   
-  /* Custom header container */
+  /* Custom header container - now sticky */
   .sardar-custom-header {
     font-family: 'Archivo' !important;
-/*    padding: 15px 30px;*/
     background: #fff;
     border-bottom: 1px solid black;
     letter-spacing: .2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
   
   /* Header row and columns */
@@ -40,7 +42,6 @@
   .sardar-nav ul {
     list-style: none;
     display: flex;
-/*    gap: 30px;*/
     text-align: center;
     justify-content: space-evenly;
     text-transform: uppercase;
@@ -51,8 +52,8 @@
     text-decoration: none;
     color: black;
     font-family: 'Archivo' !important;
-  font-size: 12px;
-  font-weight: 200;
+    font-size: 12px;
+    font-weight: 200;
     background: none;
     border: none;
     cursor: pointer;
@@ -81,10 +82,10 @@
     margin: 0;
     color: black;
     font-family: 'Archivo' !important;
-  font-size: 12px;
-  font-weight: 200;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
   }
   
   /* Book button */
@@ -138,8 +139,8 @@
     display: block;
     text-align: left;
     font-family: 'Archivo' !important;
-  font-size: 12px;
-  font-weight: 200;
+    font-size: 12px;
+    font-weight: 200;
     border-bottom: 1px solid #f0f0f0;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -189,6 +190,7 @@
   @media (max-width: 991px) {
     .sardar-custom-header {
       padding: 15px;
+      position: relative; /* Remove sticky on mobile */
     }
     
     .sardar-header-row {
@@ -225,10 +227,11 @@
     }
   }
   .botton-buttom-border{
-  font-family: 'Archivo' !important;
-  font-size: 12px;
-  font-weight: 200;
-}
+    font-family: 'Archivo' !important;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
   @media (max-width: 768px) {
     .sardar-nav ul {
       gap: 30px;
@@ -245,14 +248,14 @@
 <section class="sardar-custom-header">
   <!-- topbanner -->
   <section style="background: #4899B7;" class="container-fluid">
-  <div class="row">
-    <center style="background: transparent;">
-      <a href="/consultation-form" style="color: white; background: transparent;">
-    <br>CLICK HERE TO BEGIN YOUR CUSTOM CONSULTATION<br><br>
-      </a>
-    </center>
-  </div>  
-</section>
+    <div class="row">
+      <center style="background: transparent;">
+        <a href="/consultation-form" style="color: white; background: transparent;">
+          <br>CLICK HERE TO BEGIN YOUR CUSTOM CONSULTATION<br><br>
+        </a>
+      </center>
+    </div>  
+  </section>
   <!-- top banner ends -->
   <div class="sardar-header-row">
     <!-- Left Menu -->
@@ -295,7 +298,7 @@
             <ul>
               <li>
                 <a href="/shop-1">Shop<br>Products</a>
-            </li>
+              </li>
             </ul>
           </div>
         </div>
@@ -303,8 +306,8 @@
           <div class="sardar-nav">
             <ul>
               <li>
-              <a href="/virtual-support">VIRTUAL<br>SUPPORT</a>
-            </li>
+                <a href="/virtual-support">VIRTUAL<br>SUPPORT</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -362,15 +365,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-
-
+<!-- Mobile Header Styles - Conflict Free -->
 <style>
-/* Mobile Header Styles - Conflict Free */
 @media only screen and (max-width: 991px) {
   /* Mobile header container */
   .sardar-mobile-header {
     font-family: 'Archivo' !important;
-/*    padding: 15px 20px;*/
     background: #fff;
     border-bottom: 1px solid black;
     letter-spacing: .2rem;
@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', function() {
     width: 100%;
   }
   .sardar-mobile-header .sardar-mobile-logo  {
-  padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 30px;
   }
   
   /* Mobile header row */
@@ -602,7 +602,7 @@ document.addEventListener('DOMContentLoaded', function() {
 /* Adjustments for very small screens */
 @media only screen and (max-width: 480px) {
   .sardar-mobile-header .sardar-mobile-logo  {
-  padding: 10px 0 0 30px;
+    padding: 10px 0 0 30px;
   }
   
   .sardar-mobile-logo img {
@@ -615,14 +615,14 @@ document.addEventListener('DOMContentLoaded', function() {
 <section class="sardar-mobile-header">
   <!-- topbanner -->
   <section style="background: #4899B7;" class="container-fluid">
-  <div class="row">
-    <center style="background: transparent;">
-      <a href="/consultation-form" style="color: white; background: transparent; font-size: 10px;">
-    <br>CLICK HERE TO BEGIN YOUR CUSTOM CONSULTATION<br><br>
-      </a>
-    </center>
-  </div>  
-</section>
+    <div class="row">
+      <center style="background: transparent;">
+        <a href="/consultation-form" style="color: white; background: transparent; font-size: 10px;">
+          <br>CLICK HERE TO BEGIN YOUR CUSTOM CONSULTATION<br><br>
+        </a>
+      </center>
+    </div>  
+  </section>
   <!-- top banner ends -->
   <div class="sardar-mobile-row">
     <!-- Logo (Left) -->
